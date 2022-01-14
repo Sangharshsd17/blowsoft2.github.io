@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'roboto',sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h3 span {
+  color: #00A19D;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("/img/main4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.hero nav .navbar-item {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  transition: 0.6s;
+}
+
+.hero nav .navbar-item:hover {
+  background: none;
+  color: #00A19D;
+}
+
+.hero nav .navbar-burger {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 1023px) {
+  .hero nav #navbarBasicExample {
+    color: #000;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.hero .hero_text {
+  text-align: center;
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero .hero_text h1 {
+  color: #fff;
+}
+
+.hero .hero_text span {
+  color: #00A19D;
+}
+
+.about-us section.section .column .fas {
+  font-size: 40px;
+  color: #f14668;
+}
+
+.services .columns .column .card {
+  height: 350px;
+  transition: .6s ease;
+  cursor: pointer;
+}
+
+.services .columns .column .card:hover {
+  transform: translateY(-7px);
+  background: #00A19D;
+  color: #fff;
+}
+
+.services .columns .column .card .fas {
+  padding: 20px;
+  background: #f14668;
+  font-size: 45px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.testomonial section .container .columns .column {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.testomonial section .container .columns .column .fas {
+  font-size: 100px;
+  color: #00A19D;
+}
+
+.contact section .columns .column .fas, .contact section .columns .column .far {
+  display: inline-block;
+  width: 60px;
+  font-size: 30px;
+  padding: 15px;
+  background: #f14668;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.contact section .columns .column button.button {
+  background: #00A19D;
+}
+
+footer {
+  text-align: center;
+  background: #00A19D;
+}
+
+footer h3 {
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=style.css.map */
